@@ -1,5 +1,5 @@
 ## OpsCenter Docker Image
-This image contains OpsCenter 5.1.0 and is based on phusion/baseimage:0.9.13.
+This image contains OpsCenter 5.2.3 and is based on phusion/baseimage:0.9.13.
   
 Run this using:
 
