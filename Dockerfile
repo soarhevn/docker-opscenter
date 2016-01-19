@@ -7,7 +7,7 @@ MAINTAINER Abhinav Ajgaonkar <abhinav316@gmail.com>
 # Download and extract OpsCenter
 RUN \
   mkdir /opt/opscenter; \
-  wget -O - http://downloads.datastax.com/community/opscenter-5.1.0.tar.gz \
+  wget -O - http://downloads.datastax.com/community/opscenter-5.2.3.tar.gz \
   | tar xzf - --strip-components=1 -C "/opt/opscenter";
 
 ADD	. /src
